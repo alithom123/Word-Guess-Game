@@ -6,11 +6,27 @@
     <!-- Include Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Include my game javascript -->
-    <script src="assets/javascript/game.js"></script> <!-- Should this be at end? I see a lot of people including js at end of html -->
+    <!-- Add my custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 
   </head>
   <body>
 
+      <h1 id="heading">This is the word guess game.</h1>
+      <p id="instructions">Instructions:</p>
+      <p id="guesses-remaining">Guesses Remaining:</p>
+      <p id="win-lost-message"></p>
+      <p id="guessed-letters"></p>
+      <p id="artist-name"></p>
+      <p id="wins"></p>
+      <p id="losses"></p>
+
+
+          <!-- Include my game javascript -->
+          <!-- Include it here where the DOM should be ready. Should try document.onload also. -->
+          <script src="assets/javascript/game.js"></script> <!-- Should this be at end? I see a lot of people including js at end of html -->
+
   </body>
+
 </html>

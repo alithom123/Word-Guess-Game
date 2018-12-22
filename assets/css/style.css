@@ -1,0 +1,32 @@
+#heading {
+  font-size: 36px;
+  color: #333;
+}
+
+#instructions {
+  font-size: 24px;
+}
+
+#guessed-letters {
+  font-size: 20px;
+}
+
+#artist-name {
+  font-size: 30px;
+  letter-spacing: 0.5em;
+}
+
+#wins {
+  font-size: 20px;
+}
+
+#losses {
+  font-size: 20px;
+}
+
+#win-lost-message {
+  font-size: 50px;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
